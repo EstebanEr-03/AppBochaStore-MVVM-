@@ -1,1 +1,1 @@
-C:\Users\esteb\Downloads\Proyecto\ProyectoBochaCopia\BochaStoreProyecto.Maui\BochaStoreProyecto.Maui.csproj;x64
+C:\Users\esteb\Downloads\Proyecto\ProyectoBochaCopia - copia\BochaStoreProyecto.Maui\BochaStoreProyecto.Maui.csproj;x64

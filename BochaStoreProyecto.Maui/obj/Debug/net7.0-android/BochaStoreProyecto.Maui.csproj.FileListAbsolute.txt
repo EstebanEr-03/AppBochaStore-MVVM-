@@ -6024,3 +6024,5 @@ C:\Users\esteb\Downloads\Proyecto\ProyectoBochaCopia - copia\BochaStoreProyecto.
 C:\Users\esteb\Downloads\Proyecto\ProyectoBochaCopia - copia\BochaStoreProyecto.Maui\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 C:\Users\esteb\Downloads\Proyecto\ProyectoBochaCopia - copia\BochaStoreProyecto.Maui\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 C:\Users\esteb\Downloads\Proyecto\ProyectoBochaCopia - copia\BochaStoreProyecto.Maui\obj\Debug\net7.0-android\android\assets\System.Xml.dll
+C:\Users\esteb\Downloads\Proyecto\ProyectoBochaCopia - copia\BochaStoreProyecto.Maui\obj\Debug\net7.0-android\android\assets\CommunityToolkit.Mvvm.dll
+C:\Users\esteb\Downloads\Proyecto\ProyectoBochaCopia - copia\BochaStoreProyecto.Maui\obj\Debug\net7.0-android\android\assets\CommunityToolkit.Mvvm.pdb

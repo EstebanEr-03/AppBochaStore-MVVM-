@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XUs48L89VR2oCRr0xOGLbCyT4SvTANx/BOjvpeWMvN55+GHA9BxVI0SSNrG4Xy28Qk4Hc28ib3eFPmkknxsSEQ==",
+  "dgSpecHash": "QQdQqV0GZJm+js5wtjP4mLVT1T9w50iUKIMAuusXIfeJsizdZGQwcwP8P3KAIOo1Sb9pnM3dVwWDlHbxvzVucA==",
   "success": true,
   "projectFilePath": "C:\\Users\\esteb\\Downloads\\Proyecto\\ProyectoBochaCopia - copia\\BochaStoreProyecto.Maui\\BochaStoreProyecto.Maui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\esteb\\.nuget\\packages\\communitytoolkit.maui\\6.1.0\\communitytoolkit.maui.6.1.0.nupkg.sha512",
     "C:\\Users\\esteb\\.nuget\\packages\\communitytoolkit.maui.core\\6.1.0\\communitytoolkit.maui.core.6.1.0.nupkg.sha512",
+    "C:\\Users\\esteb\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\esteb\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\esteb\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\esteb\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

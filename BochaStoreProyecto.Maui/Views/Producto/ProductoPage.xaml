@@ -32,6 +32,7 @@
         </StackLayout>
 
         <ListView x:Name="listaProductos"
+                  ItemsSource="{Binding Products}"
                   RowHeight="160"
                   ItemSelected="OnClickShowDetails_ItemSelected">
             <ListView.ItemTemplate>

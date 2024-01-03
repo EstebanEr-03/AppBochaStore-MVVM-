@@ -4,27 +4,36 @@ using CommunityToolkit.Maui.Alerts;
 using CommunityToolkit.Maui.Core;
 using BochaStoreProyecto.Maui.Services;
 using System.Collections.ObjectModel;
+using BochaStoreProyecto.Maui.ViewModels.ProductoViewModel;
+
 
 using Producto = BochaStoreProyecto.Maui.Models.Producto;
 
 public partial class ProductoPage : ContentPage
 {
-    ObservableCollection<Producto> products;
+    private ProductoPageViewModel _viewModel;
+
+    //ObservableCollection<Producto> products;
+
     private readonly APIService _APIService;
+
     public ProductoPage(APIService apiservice)
     {
         InitializeComponent();
+        _viewModel = new ProductoPageViewModel(apiservice);
+        BindingContext = _viewModel;
         _APIService = apiservice;
     }
     protected override async void OnAppearing()
     {
         base.OnAppearing();
+        _viewModel.LoadData();
 
-        string username = "BOCHASTORE";
+        /*string username = "BOCHASTORE";
         Username.Text = username;
         List<Producto> ListaProducts = await _APIService.GetProductos();
         products = new ObservableCollection<Producto>(ListaProducts);
-        listaProductos.ItemsSource = products;
+        listaProductos.ItemsSource = products;*/
 
     }
 
@@ -32,7 +41,7 @@ public partial class ProductoPage : ContentPage
     {
         var toast = Toast.Make("On Click Boton Nuevo Producto", ToastDuration.Short, 14);
         await toast.Show();
-        await Navigation.PushAsync(new NuevoProducto(_APIService));
+        _viewModel.OnClickNuevoProducto();
 
         //await Navigation.PushAsync(new NuevoProducto());
     }
@@ -42,10 +51,13 @@ public partial class ProductoPage : ContentPage
         var toast = CommunityToolkit.Maui.Alerts.Toast.Make("Click en ver producto", ToastDuration.Short, 14);
 
         await toast.Show();
-        Producto producto = e.SelectedItem as Producto;
+
+        _viewModel.OnClickVerProducto(e.SelectedItem as Producto);
+
+        /*Producto producto = e.SelectedItem as Producto;
         await Navigation.PushAsync(new DetailsProducto(_APIService)
         {
             BindingContext = producto,
-        });
+        });*/
     }
 }
