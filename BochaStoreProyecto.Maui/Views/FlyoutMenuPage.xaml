@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BochaStoreProyecto.Maui.Views.Producto"
+             xmlns:local1="clr-namespace:BochaStoreProyecto.Maui.Models"
+             xmlns:local2="clr-namespace:BochaStoreProyecto.Maui.Views.Proovedor"
+             xmlns:local3="clr-namespace:BochaStoreProyecto.Maui.Views.Marca"
+             x:Class="BochaStoreProyecto.Maui.Views.FlyoutMenuPage"
+             Padding="0,40,0,0"
+             Title="FlyoutMenuPage">
+    <CollectionView x:Name="collectionView"
+                    x:FieldModifier="public"
+                    SelectionMode="Single">
+        <CollectionView.ItemsSource>
+            <x:Array Type="{x:Type local1:FlyoutPageItem}">
+                <local1:FlyoutPageItem Title="Productos"
+                                      IconSource="icono_producto.png"
+                                      TargetType="{x:Type local:ProductoPage}" />
+                <local1:FlyoutPageItem Title="Proovedores"
+                                      IconSource="proveedor_bocha.png"
+                                      TargetType="{x:Type local2:ProovedorPage}" />
+                <local1:FlyoutPageItem Title="Marcas"
+                                      IconSource="marca_bocha.png"
+                                      TargetType="{x:Type local3:MarcaPage}" />
+            </x:Array>
+        </CollectionView.ItemsSource>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Grid Padding="5,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Image Source="{Binding IconSource}" />
+                    <Label Grid.Column="1"
+                           Margin="20,0"
+                           Text="{Binding Title}"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center" />
+                </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BochaStoreProyecto.Maui.Views.Proovedor.NuevoProovedor"
+             Title="Nuevo Proveedor">
+    <StackLayout Padding="20" Spacing="10">
+
+        <Entry Placeholder="Nombre"
+               x:Name="EntryNombre"
+               FontSize="18"
+               BackgroundColor="#ecf0f1"
+               PlaceholderColor="#bdc3c7"
+               Margin="0,0,0,10"/>
+
+        <Entry Placeholder="Duración Contrato (meses)"
+               x:Name="EntryDuracionContrato"
+               FontSize="18"
+               BackgroundColor="#ecf0f1"
+               PlaceholderColor="#bdc3c7"
+               Margin="0,0,0,10"
+               Keyboard="Numeric"/>
+
+        <Entry Placeholder="Precio de Importación"
+               x:Name="EntryprecioImportacion"
+               FontSize="18"
+               BackgroundColor="#ecf0f1"
+               PlaceholderColor="#bdc3c7"
+               Margin="0,0,0,10"
+               Keyboard="Numeric"/>
+
+        <Button Text="Guardar Proveedor"
+                FontSize="20"
+                BackgroundColor="#3498db"
+                TextColor="White"
+                Clicked="OnClickGuardarNuevoProducto"
+                CornerRadius="5"
+                HeightRequest="50"/>
+    </StackLayout>
+</ContentPage>

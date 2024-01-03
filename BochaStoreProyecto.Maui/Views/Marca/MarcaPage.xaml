@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BochaStoreProyecto.Maui.Views.Marca.MarcaPage"
+             Title="Marcas">
+    <StackLayout>
+        <StackLayout BackgroundColor="#0e0f14" Padding="10" Spacing="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Source="logo_bochas.jpeg"
+                       HeightRequest="50"
+                       WidthRequest="50"
+                       VerticalOptions="CenterAndExpand"/>
+                <Label Grid.Column="1"
+                       x:Name="Username" 
+                       Text="Productos"
+                       FontSize="30"
+                       TextColor="White"
+                       VerticalOptions="CenterAndExpand"/>
+            </Grid>
+            <Button Text="Nueva Marca"
+                    FontSize="15"
+                    BackgroundColor="#3498db"
+                    TextColor="White"
+                    Clicked="OnClickNuevaMarca"
+                    CornerRadius="5"
+                    HeightRequest="40"/>
+        </StackLayout>
+
+        <ListView x:Name="listaMarcas"
+                  RowHeight="160"
+                  ItemSelected="listaMarcas_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10" BackgroundColor="White" Margin="5" >
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source="marca_bocha.png"
+                                       HeightRequest="70"
+                                       WidthRequest="70"
+                                       VerticalOptions="CenterAndExpand"/>
+                                <StackLayout Grid.Column="1" Margin="10,0,0,0">
+                                    <Label Text="{Binding nombreMarca}" FontSize="20"/>
+                                    <Label Text="{Binding idMarca}" FontSize="15" TextColor="#555"/>
+                                </StackLayout>
+                            </Grid>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

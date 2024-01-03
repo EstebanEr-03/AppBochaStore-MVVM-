@@ -1,0 +1,119 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BochaStoreProyecto.Maui
+build_property.ProjectDir = C:\Users\esteb\Downloads\Proyecto\ProyectoBochaCopia - copia\BochaStoreProyecto.Maui\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Views/FlyoutMenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Views.FlyoutMenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FlyoutMenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FlyoutMenuPage.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Views/FlyoutPageT.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Views.FlyoutPageT.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FlyoutPageT.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FlyoutPageT.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Views/Marca/DetailsMarca.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Views.Marca.DetailsMarca.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Marca\DetailsMarca.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Marca\DetailsMarca.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Views/Marca/MarcaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Views.Marca.MarcaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Marca\MarcaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Marca\MarcaPage.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Views/Marca/NuevaMarca.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Views.Marca.NuevaMarca.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Marca\NuevaMarca.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Marca\NuevaMarca.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Views/Producto/DetailsProducto.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Views.Producto.DetailsProducto.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Producto\DetailsProducto.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Producto\DetailsProducto.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Views/Producto/NuevoProducto.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Views.Producto.NuevoProducto.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Producto\NuevoProducto.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Producto\NuevoProducto.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Views/Producto/ProductoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Views.Producto.ProductoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Producto\ProductoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Producto\ProductoPage.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Views/Proovedor/DetailsProovedor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Views.Proovedor.DetailsProovedor.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Proovedor\DetailsProovedor.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Proovedor\DetailsProovedor.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Views/Proovedor/NuevoProovedor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Views.Proovedor.NuevoProovedor.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Proovedor\NuevoProovedor.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Proovedor\NuevoProovedor.xaml
+
+[C:/Users/esteb/Downloads/Proyecto/ProyectoBochaCopia - copia/BochaStoreProyecto.Maui/Views/Proovedor/ProovedorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BochaStoreProyecto.Maui.Views.Proovedor.ProovedorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Proovedor\ProovedorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Proovedor\ProovedorPage.xaml

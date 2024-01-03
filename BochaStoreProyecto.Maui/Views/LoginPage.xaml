@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BochaStoreProyecto.Maui.Views.LoginPage"
+             Title="LoginPage">
+    <StackLayout Margin="50" HorizontalOptions="Fill">
+        <Image Source="logo_bochas.jpeg" WidthRequest="150" HeightRequest="150" />
+        
+        <Label Text="User Name:"></Label>
+        
+        <Entry x:Name="txtUserName"
+               Placeholder="Usuario"
+               TextColor="#000"
+               PlaceholderColor="#154360"></Entry>
+        
+        <Label Text="Password: "></Label>
+        
+        <Entry x:Name="txtPassword"
+               Placeholder="Contraseña"
+               TextColor="#000"
+               PlaceholderColor="#154360"></Entry>
+
+        <Button x:Name="btnLogin" 
+                Text="Login"
+                BackgroundColor="Transparent"
+                TextColor="#154360"
+                BorderColor="#154360"
+                CornerRadius="50"
+                BorderWidth="1.5"
+                FontAttributes="Bold"
+                FontSize="Large"
+                Clicked="Login_Clicked"
+                VerticalOptions="Center"></Button>
+    </StackLayout>
+</ContentPage>
